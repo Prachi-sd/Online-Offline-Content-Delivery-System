@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/iexp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="140dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:text="Terms And Conditions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView58"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView51"
+                android:textSize="34sp" />
+
+            <TextView
+                android:text="1. I/We have read and understood all terms, conditions, systems, methods and moderation process of competition. "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView59"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:text="2. We are abide by these and agree to all written and which will be implied in future, as far they are within reasonable limits and do not include any additional monetary involvement or costs, time to time by organizers without any complaint."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView60"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:text="3. We also confirm that any dispute arises will be solved mutually with help of mutually agreed arbitrator and also any legal matter will be subject to Pune Jurisdiction.                 I/We hereby give our full and attentive consent for all rules and regulations given to us in person and will follow them without any complaint. "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView61"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView62"
+                android:textSize="24sp" />
+
+            <Button
+                android:text="I Accept"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button12" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

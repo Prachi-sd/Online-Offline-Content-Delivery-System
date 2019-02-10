@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView73"
+        android:textSize="34sp" />
+
+    <TextView
+        android:text="Contents"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView93"
+        android:textSize="24sp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView94"
+        android:textSize="24sp" />
+
+    <TextView
+        android:text="Click here to download content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView95"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_blue_light" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView96" />
+
+    <TextView
+        android:text="Click here to download content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView97"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_blue_light" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView98"
+        android:textSize="24sp" />
+
+    <Button
+        android:text="Mock Test 1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button15"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        style="@style/Widget.AppCompat.Button"
+        android:background="@android:color/holo_blue_light" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView99" />
+
+    <Button
+        android:text="Mock Test 1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button18"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        style="@style/Widget.AppCompat.Button"
+        android:background="@android:color/holo_blue_light" />
+
+</LinearLayout>

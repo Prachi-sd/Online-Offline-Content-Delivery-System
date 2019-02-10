@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TabHost
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/tab">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:id="@+id/BioDiversity"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView83"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:text="CONTENTS"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView84"
+                        android:textSize="24sp"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView85"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:text="Click here to download content"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView86"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/holo_blue_light"
+                        android:textStyle="normal|italic" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView87"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:text="Click here to download content"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView88"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/holo_blue_light"
+                        android:textStyle="normal|italic" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView89"
+                        android:textSize="24sp" />
+
+                    <Button
+                        android:text="Mock Test "
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/button23"
+                        style="@style/Widget.AppCompat.Button"
+                        android:background="@android:color/holo_blue_light"
+                        android:textColor="@color/common_google_signin_btn_text_dark_default" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView90"
+                        android:textSize="24sp" />
+
+                    <Button
+                        android:text="Mock Test 2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/button24"
+                        style="@style/Widget.AppCompat.Button"
+                        android:background="@android:color/holo_blue_light"
+                        android:textColor="@color/common_google_signin_btn_text_dark_default" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView91" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/Astronomy"
+                    android:layout_width="371dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView76"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:text="CONTENTS"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView75"
+                        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                        android:textSize="24sp"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView77"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:text="Click here to download content(English)"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView78"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/holo_blue_light"
+                        android:textStyle="normal|italic" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView80" />
+
+                    <TextView
+                        android:text="Click here to download content(Marathi)"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView79"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/holo_blue_light" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView81"
+                        android:textSize="24sp" />
+
+                    <Button
+                        android:text="Mock Test 1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/button21"
+                        style="@style/Widget.AppCompat.Button"
+                        android:background="@android:color/holo_blue_light"
+                        android:textColor="@color/common_google_signin_btn_text_dark_default" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView82"
+                        android:textSize="24sp" />
+
+                    <Button
+                        android:text="Mock Test 2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/button22"
+                        style="@style/Widget.AppCompat.Button"
+                        android:background="@android:color/holo_blue_light"
+                        android:textColor="@color/common_google_signin_btn_text_dark_default" />
+                </LinearLayout>
+
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+</LinearLayout>
